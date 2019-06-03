@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+  font-family: "helvetica-neue";
+  src: local ("./assets/helvetica-neue");
+}
+
+.main_body {
+    background-color: white;
+  }
+
+
+.head_logo {
+  display: flex
+  justify-content: center;
+}
+
+.head_logo_img {
+  justify-content: center;
+
+}
+
+.menu_item {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', Helvetica Neue, sans-serif;
+  letter-spacing: 2px;
+  line-height: 12px;
+  text-align: center;
+  text-size-adjust: 100%;
+}
+
+.menu_item_1 {
+  background:#eccc68;
+  flex-grow: 1;
+  order: 1;
+}
+
+.menu_item_2 {
+  background:#ff6348;
+  flex-grow: 1;
+  order: 2;
+}
+
+.menu_item_3 {
+  background:#ff7f50;
+  flex-grow: 1;
+  order: 3;
+}
+
+.menu_item_4 {
+  background:#ff4757;
+  flex-grow: 1;
+  order: 4;
+}
+
+.menu_item_5 {
+  background:#f1c40f;
+  flex-grow: 1;
+  order: 5;
+}
+
+.menu_item_6 {
+  background:#e67e22;
+  flex-grow: 1;
+  order: 6;
+}
+
+.menu {
+  display: flex
+  justify-content: space-around;
+
+}
+
+  
