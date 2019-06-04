@@ -7,9 +7,11 @@
   src: local ("./assets/helvetica-neue");
 }
 
-.main_body {
+body {
   background-color: white;
   color: #333;
+  padding: 0px;
+  margin: 0px;
   /* font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -17,7 +19,7 @@
 }
 
 .head_title {
-  font-color: black;
+  color: black;
   font-size: 45px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -32,9 +34,7 @@
   width: 37px;
   height: 5px;
   display: block;
-  margin: 5px 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5px auto;
 }
 
 .hamburger_area {
@@ -46,7 +46,7 @@
 }
 
 .menu_item {
-  font-color: black;
+  color: black;
   font-size: 20px;
   font-weight: 400;
   font-family: "Lato", "Helvetica Neue", sans-serif;
@@ -194,8 +194,8 @@ hr {
   grid-column-gap: 5px;
   width: 100vw;
   align-content: space-between;
-  padding-top: 0px;
-  margin-top: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .box {
@@ -301,5 +301,9 @@ hr {
 }
 
 /* @media only screen and (min-width: 768px) {
+  
+} */
+
+/* @media only screen and (min-width: 1024px) {
   
 } */
